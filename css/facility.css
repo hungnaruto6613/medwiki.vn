@@ -1,0 +1,114 @@
+body{
+	background-color: #EBEAE6 !important;
+}
+
+
+
+.content{
+	margin-top: 60px;
+}
+
+/*phan noi dung ben trai*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    padding: 15px;
+	height: 270px;
+	margin-bottom: 5px;
+}
+.card .avata{
+	width: 100%;
+	height: 240px;
+	border: 1px solid #e0e0e0;
+}
+.card img{
+	width: 100%;
+	height: 70%;
+}
+.card small{
+	font-size: 80%;
+}
+.card p{
+	margin: 0 0 7px !important;
+}
+.name h3{
+	margin-top: 0px !important;
+	width: 100%;
+	max-height: 20%;
+}
+.intro{
+	height: 50%;
+}
+.transfer{
+	height: 30%;
+	padding-top: 8%;
+}
+.transfer .btn{
+	width: 100%;
+	border-radius: 0 !important;
+	border: solid 1px #1d9585 !important;
+	padding: 10px 12px !important;
+}
+.transfer .btn:hover{
+	background-color: #F0DEFD !important;
+	color: #1d9585 !important;
+}
+
+
+/*Head*/
+.header-content .btn{
+	border-radius: 0 !important;
+	border: solid 1px #1d9585 !important;
+	padding: 10px 30px !important;
+	background-color: #EBEAE6 !important;
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+.header-content .btn:hover{
+	color: #1d9585 !important;
+}
+
+.dropdown-menu {
+    top: 82% !important;
+    min-width: 227px !important;
+    border-radius: 0px !important;
+}
+
+/*phan ben phai*/
+/*menu*/
+.card-menu{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+.card-menu .header-menu{
+	font-size: 20px;
+	text-align: center;
+	min-height: 50px;
+	background-color: #009194;
+}
+.card-menu ul{
+	padding: 0px 15px 15px;
+}
+.card-menu ul li{
+	list-style-type: none;
+	min-height: 40px;
+	border-bottom: 1px solid #DEDEDE;
+}
+.card-menu ul li img{
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.card-menu ul li h4{
+	padding-top: 3px;
+	padding-left: 15px;
+}
+.card-menu ul li a{
+	color: #01887c !important;
+}
+.header-menu p{
+	color: #fff;
+	padding-top: 10px;
+}
+.card-menu ul li a:hover{
+	color: #e34554 !important;
+}

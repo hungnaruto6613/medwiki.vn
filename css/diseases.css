@@ -1,0 +1,188 @@
+
+body{
+	background-color: #EBEAE6 !important;
+}
+
+.wrap{
+	margin-top: 60px;
+}
+
+
+
+/*css cho carousel*/
+.top-view{
+	margin-top: 20px;
+	background-color: #EBE5E5;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 3px;
+	border-radius: 5px;
+
+}
+.carousel-inner img{
+	height: auto;
+	width: 100%;
+}
+.control {
+	position: initial !important;
+	left: 0% !important;
+	margin-left: 18% !important;
+	margin-top: 10px;
+	margin-bottom: 0px !important;
+
+}
+
+.control li{
+	border: 1px solid #9a9595 !important;
+	background-color: #9a9595 !important;
+}
+.control .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #544E4E !important;
+}
+
+.carousel-inner a{
+	color: #2F2F30 !important;
+}
+.carousel-inner a:hover{
+	color: #00babe !important;
+}
+
+
+/*css danh muc benh them gan day*/
+.top-recent{
+	margin-top: 10px;
+	border-radius: 5px;
+	border: 1px solid #d8d5d5;
+}
+.top-recent .top-recent-list{
+	padding-top: 4px;
+}
+.top-recent h4{
+	padding-left: 20px;
+	padding-top: 10px;
+	margin-left: 20px;
+    margin-right: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #d8d5d5;
+}
+.top-recent li{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #d8d5d5;
+	list-style-type: none;
+	margin-right: 20px;
+}
+.top-recent img{
+	height: auto;
+	width: 100%;
+}
+.top-recent-list-title{
+	font-size: 10px;
+	height: 40%;
+}
+.tacgia{
+	font-size: 10px;
+	height: 40%;
+}
+.tacgia p{
+	margin: 0px 0 0px !important;
+}
+.top-recent-list-title a:hover{
+	text-decoration: none;
+}
+.top-recent-list-content{
+	font-size: 10px;
+	height: 40%;
+}
+.top-recent-list a:hover{
+	color: #11CD1E !important;
+	text-decoration: none;
+}
+
+
+/*css danh sach benh*/
+.header-content .btn{
+	border-radius: 0 !important;
+	border: solid 1px #1d9585 !important;
+	padding: 10px 30px !important;
+	background-color: #EBEAE6 !important;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.header-content .btn:hover{
+	color: #1d9585 !important;
+}
+.dropdown-menu {
+    top: 82% !important;
+    min-width: 227px !important;
+    border-radius: 0px !important;
+}
+
+.list{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    margin-bottom: 20px;
+	padding: 25px 10px;
+	min-height: 500px;
+}
+.list ul{
+	color: #009194;
+	
+}
+.list ul li{
+	padding: 5px 0px;
+}
+.list ul li a{
+	color: #3a4042 !important;
+}
+.list ul li a:hover{
+	color: #009194 !important;
+}
+.list h4{
+	margin-left: 20px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	font-size: 15px;
+}
+.list .link{
+	font-size: 12px;
+}
+
+/*menu các bệnh*/ 
+.card-menu{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+.card-menu .header-menu{
+	font-size: 20px;
+	text-align: center;
+	min-height: 50px;
+	background-color: #00babe;
+}
+.card-menu ul{
+	padding: 0px 15px 15px;
+}
+.card-menu ul li{
+	list-style-type: none;
+	border-bottom: 1px solid #DEDEDE;
+	
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.card-menu ul li a{
+	color: #01887c !important;
+}
+.card-menu ul li a:hover{
+	color: #e34554 !important;
+}
+.header-menu h4{
+	color: #fff;
+	padding-top: 15px;
+	font-weight: bold;
+	margin-top: 0px !important;
+}

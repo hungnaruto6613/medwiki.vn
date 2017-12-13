@@ -1,0 +1,91 @@
+body{
+	background-color: #EBEAE6 !important;
+}
+
+
+
+.content{
+	margin-top: 60px;
+}
+.header-content{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+.card-menu{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+.card-menu .header-menu{
+	font-size: 20px;
+	text-align: center;
+	min-height: 50px;
+	background-color: #00babe;
+}
+.card-menu ul{
+	padding: 0px 15px 15px;
+}
+.card-menu ul li{
+	list-style-type: none;
+	border-bottom: 1px solid #DEDEDE;
+}
+.card-menu ul li img{
+	width: 100%;
+}
+.card-menu ul li h4{
+}
+.card-menu ul li a{
+	color: #01887c !important;
+}
+.card-menu ul li a:hover{
+	color: #e34554 !important;
+}
+.header-menu h4{
+	color: #fff;
+	padding-top: 15px;
+	font-weight: bold;
+	margin-top: 0px !important;
+}
+
+
+
+
+
+/*noi dung*/
+.another-name{
+	padding: 10px;
+	background-color: #E3E1E1;
+	border-radius: 5px;
+	width: 50%;
+}
+.imgbenh img{
+	width: 100%;
+}
+.noidung{
+	margin-top: 15px;
+	border-top: 1px solid #DAD7D7;
+}
+.noidung h4,.noidung a{
+	margin-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 4px solid #00babe;
+	display: inline-block;
+}
+.noidung p{
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    padding: 15px;
+    padding-bottom: 25px;
+	margin-bottom: 5px;
+}
+
+/*phan tieu de cho~ comment*/
+.title-comment{
+	border-top: 1px solid #D2D1D1;
+}

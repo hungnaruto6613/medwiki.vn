@@ -1,0 +1,50 @@
+
+
+
+
+/*khung nhap chat*/
+.comment-for-user{
+	padding-top: 20px;
+}
+.input-box{
+	padding-bottom: 20px;
+}
+.pb-cmnt-container {
+    font-family: Lato;
+    margin-top: 100px;
+}
+
+.pb-cmnt-textarea {
+    resize: none;
+    padding: 20px;
+    height: 130px;
+    width: 100%;
+    border: 1px solid #F2F2F2;
+}
+
+.comment-for-user .thumbnail {
+    width: 60%;
+}
+
+
+/**/
+.position-on-comment{
+	padding: 2px 8px !important;
+    font-size: 9px !important;
+    font-weight: bold !important;
+}
+
+.confirm-comment .btn{
+	padding: 0px 6px!important;
+}
+.comment h4{
+    border-top: 1px solid #f3f3f3;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.comment img{
+    margin-top: 10px;
+}
+
+
+

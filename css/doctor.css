@@ -1,0 +1,148 @@
+body{
+	background-color: #EBEAE6 !important;
+}
+
+.noidung{
+	margin-top: 55px;
+}
+
+/*card*/
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: #FFFFFF;
+	min-height: 420px;
+}
+.doctor-name{
+	text-align: center;
+}
+.doctor-name h4{
+	margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+.doctor-link{
+	color: #fff !important;
+	margin-left: 20%;
+	width: 60%;
+	margin-bottom: 20px !important;
+	border: none !important;
+}
+.doctor-link:hover{
+	color: #fff !important;
+	background-color: #797575 !important;
+}
+.information .glyphicon{
+
+}
+/*dat overlay cho hinh*/
+.wraper-avata  {
+  position: relative;
+  width: 100%;
+}
+
+.avata {
+  display: block;
+  width: 100%;
+  height: 270px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.wraper-avata:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.information {
+  color: white;
+  position: absolute;
+  overflow: hidden;
+  top: 40%;
+	left: 50%;
+	width: 90%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+/*css danh sach benh*/
+.choose{
+	margin-top: 20px;
+
+}
+.choose .form-group{
+	padding-bottom: 15px;
+	border-bottom: 1px solid #d8d5d5;
+}
+.choose .form-control{
+	display: inline-block !important;
+    width: 15% !important;
+    margin-left: 16px;
+    height: 30px !important;
+    padding-top: 4px !important;
+}
+.choose ul{
+	margin-top: 20px;
+}
+.choose li{
+	margin-top: 15px;
+}
+.choose a{
+	color: #525c5d !important;
+}
+.choose a:hover{
+	color: #00babe !important;
+}
+
+
+/*cho thanh menu phải*/
+.card-menu{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    margin-top: 20px;
+
+}
+.card-menu .header-menu{
+	font-size: 20px;
+	text-align: center;
+	min-height: 50px;
+	background-color: #00babe;
+}
+.card-menu ul{
+	padding: 0px 15px 15px;
+}
+.card-menu ul li{
+	list-style-type: none;
+	min-height: 40px;
+	border-bottom: 1px solid #DEDEDE;
+}
+.card-menu ul li img{
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.card-menu ul li h4{
+	padding-top: 3px;
+	padding-left: 15px;
+}
+.card-menu ul li a{
+	color: #01887c !important;
+}
+.header-menu p{
+	color: #fff;
+	padding-top: 10px;
+}
+.card-menu ul li a:hover{
+	color: #e34554 !important;
+}

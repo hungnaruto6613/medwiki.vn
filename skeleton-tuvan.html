@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tư vấn</title>
+	<link rel="stylesheet" type="text/css" href="css/nav-footer.css">
+	<link rel="stylesheet" type="text/css" href="css/consultant.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	
+  	<script type="text/javascript">
+  		$(document).ready(function(){
+
+  			$("button#postbutton").click(function(){
+  				var status = $("textarea#status").val();
+  				var posterid = <?php echo $sid; ?>;
+  				var data = 'status='+status+'&posterid='+posterid;
+  				$.ajax({
+  					
+  					type: "POST",
+  					url: "insertstatus.php",
+  					data: data,
+  					success: function(data){
+
+  						$("#allstatus").prepend(data).fadeIn('slow');
+  						$("textarea#status").val('');
+  					}
+  				});
+  			});
+  		});
+  	</script>
+</head>
+<body>
+	<div class="wrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					
+				</div>
+				<div class="col-md-8">
+					<div id="global">
+						<form action="" onsubmit="return false" id="post">
+							<div id="top-post">
+								<b><span class="glyphicon glyphicon-question-sign"></span> Đăng vài viết | Nhận tư vấn từ bác sĩ và mọi người</b> 
+							</div>
+							<div id="center-post">
+								<div class="avata-box" >
+									<img src="images/avata.jpg" class="img-circle avata">
+								</div>
+								<div class="text">
+									<textarea id="status" class="form-control"></textarea>
+								</div>
+								
+							</div>
+							<div id="bot-post">
+								<button id="postbutton" class="btn btn-primary">Đăng bài </button>
+							</div>
+						</form>
+
+						<br>
+							<br>
+
+							<div id="allstatus">
+								<div id="status-$statusid" class="status">
+									<div class="topstatus">
+										<div id="statuspic-$statusid" class="statuspic-box">
+											<img src="images/avata.jpg" class="img-circle statuspic">
+										</div>
+										<div id="statusinfo-$statusid" class="statusinfo">
+											<div id="statusname-$statusid" class="statusname"> MoMo 
+												&middot <small style="color: red;">admin</small>
+											</div>
+											<div id="statustext-$statusid" class="statustext">Toi la leasdfsdfsdfsadfdsafsdafsdafdsajhf sifhsalfh asifha a fhsaldfhsaif hsadf hsdf iushf iasufh awuehrfiua wh am</div>
+										</div>
+										<div id="statusmenu-$statusid" class="statusmenu">
+											<div class="dropdown">
+											    <button class="drop" type="button" data-toggle="dropdown">&middot&middot&middot</button>
+											    <ul class="dropdown-menu">
+											      <li><button id="statusdel-$statusid">Xóa bài viết</button></li>
+											      <li><button id="statusedit-$statusid">Sửa bài viết</button></li>
+											    </ul>
+											  </div>
+										</div>
+									</div>
+									<div id="statusoptions-$statusid" class="statusoptions">
+										<button id="unlikestatus-$statusid" class="like">Like</button>
+										<button id="" class="like">Comment</button>
+										<button class="like">Share</button>
+										<button class="time">Time</button>
+									</div>
+									<div id="likes-$statusid" class="likes">
+									</div>
+									<div id="allcomments-$statusid" class="allcomments">
+										<div id="comment-$cid" class="comment">
+											<div id="commentpic-$cid" class="commentpic-box">
+												<img src="images/avata.jpg" class="commentpic img-circle">
+											</div>
+
+											<div id="commentinfo-$cid" class="commentinfo">
+												<div id="commentname-$cid" class="commentname">Hung</div>
+												<div id="commenttext-$cid" class="commenttext">xin tra loi</div>
+												<div id="commentoption-$cid" class="commentoption">
+													<button id="likecomment-$cid" class="likecomment">like</button>
+													&middot
+													<button id="commenttime-$cid" class="timecomment">7 gio trc</button>
+												</div>
+											</div>
+
+											<div id="commentmenu-$cid" class="commentmenu">
+												<div class="dropdown">
+												    <button class="drop" type="button" data-toggle="dropdown">&middot&middot&middot</button>
+												    <ul class="dropdown-menu">
+												      <li><button id="commentdel-$cid">Xóa bình luận</button></li>
+												      <li><button id="commentedit-$cid">Sửa bình luận</button></li>
+												    </ul>
+												  </div>
+											</div>
+										</div>
+									</div>
+									<div id="commentpost-$statusid" class="commentpost">
+										<form action="" onsubmit="return false" style="position: relative;">
+											<textarea id="comment-$statusid" class="comment-input form-control"></textarea>
+											<button id="postcomment-$statusid" class="postcomment btn btn-success">Gui</button>
+										</form>
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("button#statusdel-$statusid").click(function(){
+				var statusid = $statusid;
+				var data = 'statusid='+statusid;
+				$.ajax({
+					type: "POST",
+					url: "deletestatus.php",
+					data: data,
+					success: function(result){
+						$("#global").html(result);
+					}
+				});
+			});
+		});
+
+	</script>
+</body>
+</html>

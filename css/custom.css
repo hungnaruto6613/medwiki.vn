@@ -1,0 +1,9 @@
+.addaccount{
+	padding: 25px;
+	margin-top: 40px;
+	border: 1px solid #C2BFBF;
+	border-radius: 5px;
+}
+tbody tr th{
+	font-weight: normal !important;
+}

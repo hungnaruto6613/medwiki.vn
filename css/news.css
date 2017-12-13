@@ -1,0 +1,134 @@
+body{
+	background-color: #EBEAE6 !important;
+}
+/*tuy chinh banner*/
+.banner{
+	margin-top: 50px;
+}
+.banner .carousel-inner .item img{
+	max-height: 340px;
+	opacity: 0.6;
+}
+
+.banner .carousel-inner .item b{
+	color: #fff;
+}
+.banner .carousel-inner .item .btn{
+	border: none;
+	padding: 6px 30px;
+}
+
+.banner .carousel-inner .item .btn-primary{
+	
+	background-color: #183954;
+}
+.banner .carousel-inner .item .btn-primary:hover{
+	background-color: #699DC7;
+}
+.carousel-indicators  .active{
+    width: 18px !important;
+    height: 18px !important;
+}
+.carousel-indicators li{
+    width: 16px !important;
+    height: 16px !important;
+}
+
+
+@media screen and (min-width: 768px){
+	.carousel-caption {
+	    right: 10%;
+	    left: 10%;
+	    padding-bottom: 50px !important;
+	}
+}
+
+
+
+.slogan{
+	margin-bottom: 22px;
+	margin-top: 15px;
+}
+.content{
+	margin-bottom: 20px;
+}
+/*thanh news bar*/
+.news-bar{
+	padding-left: 20px;
+	margin-top: 15px;
+	margin-bottom: 8px;
+	background-color: #FFFFFF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+/*cho form tin to*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    padding: 15px;
+	min-height: 560px;
+	margin-bottom: 5px;
+}
+.card img{
+	width: 720px;
+	height: 400px;
+}
+.card h4{
+	color: #E86845;
+}
+.card .more{
+	margin-bottom: 0px;
+}
+
+/*cho form tin nho hon*/
+.card-mini {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    padding: 15px;
+	height: 470px;
+	margin-bottom: 5px;
+}
+.card-mini img{
+	width: 100%;
+	height: auto;
+}
+.card-mini h4{
+	color: #E86845;
+}
+.card-mini .more{
+	margin-bottom: 0px;
+}
+/*news menu*/
+.card-menu{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+	height: 560px;
+}
+.card-menu .header-menu{
+	font-size: 20px;
+	text-align: center;
+	min-height: 50px;
+	background-color: #00babe;
+}
+.card-menu ul{
+	padding: 0px 15px 15px;
+}
+.card-menu ul li{
+	list-style-type: none;
+	min-height: 40px;
+	border-bottom: 1px solid #DEDEDE;
+}
+.card-menu ul li img{
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.card-menu ul li h4{
+	padding-top: 3px;
+	padding-left: 15px;
+}
+.card-menu ul li a{
+	color: #01887c !important;
+}
+.header-menu p{
+	color: #fff;
+	padding-top: 10px;
+}

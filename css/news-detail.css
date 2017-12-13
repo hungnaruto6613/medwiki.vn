@@ -1,0 +1,56 @@
+
+
+body{
+	background-color: #EBEAE6 !important;
+}
+
+
+
+.content{
+	margin-top: 60px;
+}
+
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    padding: 15px;
+    padding-bottom: 25px;
+	margin-bottom: 5px;
+}
+
+.card-menu{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+.card-menu .header-menu{
+	font-size: 20px;
+	text-align: center;
+	min-height: 50px;
+	background-color: #00babe;
+}
+.card-menu ul{
+	padding: 0px 15px 15px;
+}
+.card-menu ul li{
+	list-style-type: none;
+	border-bottom: 1px solid #DEDEDE;
+}
+.card-menu ul li img{
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.card-menu ul li h4{
+}
+.card-menu ul li a{
+	color: #01887c !important;
+}
+.card-menu ul li a:hover{
+	color: #e34554 !important;
+}
+.header-menu h4{
+	color: #fff;
+	padding-top: 15px;
+	font-weight: bold;
+	margin-top: 0px !important;
+}

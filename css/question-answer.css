@@ -1,0 +1,159 @@
+
+body{
+  background-color: #f1f1f1 !important;
+}
+
+.no-paddings {
+  padding: 0 !important;
+}
+/*menu ben trai*/
+.menu-left{
+  padding-top: 10px;
+}
+.menu-left .panel-body{
+  padding-top: 10px !important;
+}
+.menu-left ul{
+  margin: 0px 0px 10px 0px;
+}
+.menu-left ul li{
+  list-style-type: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+}
+.menu-left ul li a{
+  color: #444343 !important;
+  padding-left: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.menu-left ul li a:hover{
+  color: #04a59d !important;
+}
+.menu-left .active a{
+  color: #04a59d !important;
+  font-weight: bold;
+  display: block;
+  background-color: #f8f8f8;
+}
+
+
+.noidung{
+  margin-top: 60px;
+  padding-top: 10px;
+}
+/*css o nhap post*/
+.post-box{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #DCDADA;
+  background-color: white;
+}
+.post-box img{
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.post-box .glyphicon{
+  color: #04a59d;
+}
+.post-box hr{
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.post-box textarea{
+  min-height: 100px;
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  color: #555;
+}
+.post-box textarea:focus{
+  outline: none !important;
+  border: none;
+}
+.post-box .btn{
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.post-box .input{
+  padding-top: 10px;
+}
+.bottom-box{
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  border-top: 1px solid #D7D4D4;
+  background-color: #EBEAEA;
+}
+
+/*css phan top noi dung hoi dap*/
+.q-a-post{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #DCDADA;
+  background-color: white;
+}
+.top-q-a img{
+  width: 100%;
+  margin-left: 10px;
+}
+.top-q-a b{
+  padding-top: 10px;
+}
+.top-q-a small{
+  font-size: 70%;
+  color: #8a8585 !important;
+}
+.question {
+  padding-top: 10px;
+  padding-left: 27px;
+  padding-right: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-bottom: 1px solid #f6f7f9;
+}
+.view{
+  padding-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.view ul li{
+  display: inline;
+  padding-right: 15px;
+}
+
+/*phan than hoi dap*/
+.body-q-a{
+  padding-top: 10px;
+  background-color: #f6f7f9;
+}
+.body-q-a img{
+  width: 70%;
+  margin-left: 10px;
+}
+.body-q-a .q-a-input{
+  padding-right: 20px;
+  width: 98% !important;
+  border-radius: 19px;
+}
+.cmt{
+  padding-bottom: 10px;
+}
+.reply{
+  padding-bottom: 10px;
+
+}
+a:hover{
+  color: #545050 !important;
+}
+
+.noidung .col-md-11{
+  padding-left: 0px !important;
+
+}

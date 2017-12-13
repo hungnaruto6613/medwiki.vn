@@ -1,0 +1,33 @@
+body{
+	background-color: #EBEAE6 !important;
+}
+
+
+
+.content{
+	margin-top: 60px;
+}
+.header-content{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+/*phan noi dung ben trai*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    padding: 15px;
+    padding-bottom: 25px;
+	margin-bottom: 5px;
+}
+.card img{
+	width: 90%;
+}
+.card p{
+	margin: 0px !important;
+}
+.intro p{
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+}

@@ -1,0 +1,50 @@
+body{
+	background-color: #EBEAE6 !important;
+}
+
+
+.content{
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+.left-bar{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.left-bar img{
+	width: 100%;
+	height: auto;
+}
+.left-bar h4{
+	padding-top: 15px;
+	text-align: center;
+}
+.infor{
+	padding: 15px;
+}
+
+.right-content{
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+.right-content .glyphicon{
+	color: #009194;
+}
+.right-content h4{
+	padding-bottom: 5px;
+	border-bottom: 1px solid #D0CECE;
+}
+.right-content p{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.right-content ul{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}

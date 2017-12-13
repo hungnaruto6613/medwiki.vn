@@ -1,0 +1,1 @@
+<li><a href="register.php"><span class="glyphicon glyphicon-plus"></span> Đăng ký</a></li>
